@@ -1,5 +1,5 @@
 // ===== DATA =====
-const WHATSAPP_NUMBER = '556581135744';
+const WHATSAPP_NUMBER = '5569993775932';
 const WHATSAPP_MESSAGE = 'Olá! Gostaria de fazer um pedido na Federal Burger! 🍔';
 
 function getWhatsappLink(item) {
@@ -8,18 +8,18 @@ function getWhatsappLink(item) {
 }
 
 const burgers = [
-  { name: "FEDERAL BURGER", description: "Pão, hambúrguer, mussarela, tomate e alface.", price: 15, image: "federal.jpg" },
-  { name: "FEDERAL BACON", description: "Pão, hambúrguer, mussarela, bacon, tomate e alface.", price: 18, image: "federal.jpg" },
-  { name: "FEDERAL CUPIM", description: "Pão, hambúrguer, mussarela, cupim bovino, tomate e alface.", price: 21, image: "federal.jpg" },
-  { name: "FEDERAL FRANGO/CATUPIRY", description: "Pão, hambúrguer, mussarela, frango com catupiry, tomate e alface.", price: 18, image: "federal.jpg" },
-  { name: "FEDERAL TWO EGGS", description: "Pão, hambúrguer, mussarela, dois ovos, alface e tomate.", price: 17, image: "federal.jpg" },
-  { name: "FEDERAL 4 QUEIJOS", description: "Pão, hambúrguer, mussarela, cheddar, parmesão, catupiry, tomate e alface.", price: 19, image: "federal.jpg" },
-  { name: "FEDERAL CALABRESA", description: "Pão, hambúrguer, mussarela, calabresa, tomate e alface.", price: 17, image: "federal.jpg" },
-  { name: "FEDERAL DORITOS", description: "Pão, hambúrguer, mussarela, cheddar, creme de pimenta, doritos, catupiry, tomate e alface.", price: 21, image: "federal.jpg" },
-  { name: "FEDERAL GRAN DUOS", description: "Pão, 2 hambúrguers, 2 mussarelas, tomate, alface, 2 sabores para escolher.", price: 25, image: "federal.jpg" },
-  { name: "FEDERAL FILÉ", description: "Pão, hambúrguer, mussarela, filé mignon, tomate e alface.", price: 26, image: "federal.jpg" },
-  { name: "FEDERAL PICANHA", description: "Pão, mussarela, hambúrguer, picanha, alface e tomate.", price: 27, image: "federal.jpg" },
-  { name: "FEDERAL STROGONOFF", description: "Strogonoff de frango ou filé, pão, hambúrguer, mussarela, batata palha, tomate e alface.", price: 28, image: "federal.jpg" },
+  { name: "FEDERAL BURGER", description: "Pão, hambúrguer, mussarela, tomate e alface.", price: 17, image: "federal.jpg" },
+  { name: "FEDERAL BACON", description: "Pão, hambúrguer, mussarela, bacon, tomate e alface.", price: 20, image: "federal.jpg" },
+  { name: "FEDERAL CUPIM", description: "Pão, hambúrguer, mussarela, cupim bovino, tomate e alface.", price: 23, image: "federal.jpg" },
+  { name: "FEDERAL FRANGO/CATUPIRY", description: "Pão, hambúrguer, mussarela, frango com catupiry, tomate e alface.", price: 20, image: "federal.jpg" },
+  { name: "FEDERAL TWO EGGS", description: "Pão, hambúrguer, mussarela, dois ovos, alface e tomate.", price: 19, image: "federal.jpg" },
+  { name: "FEDERAL 4 QUEIJOS", description: "Pão, hambúrguer, mussarela, cheddar, parmesão, catupiry, tomate e alface.", price: 21, image: "federal.jpg" },
+  { name: "FEDERAL CALABRESA", description: "Pão, hambúrguer, mussarela, calabresa, tomate e alface.", price: 19, image: "federal.jpg" },
+  { name: "FEDERAL DORITOS", description: "Pão, hambúrguer, mussarela, cheddar, creme de pimenta, doritos, catupiry, tomate e alface.", price: 23, image: "federal.jpg" },
+  { name: "FEDERAL GRAN DUOS", description: "Pão, 2 hambúrguers, 2 mussarelas, tomate, alface, 2 sabores para escolher.", price: 27, image: "federal.jpg" },
+  { name: "FEDERAL FILÉ", description: "Pão, hambúrguer, mussarela, filé mignon, tomate e alface.", price: 28, image: "federal.jpg" },
+  { name: "FEDERAL PICANHA", description: "Pão, mussarela, hambúrguer, picanha, alface e tomate.", price: 29, image: "federal.jpg" },
+  { name: "FEDERAL STROGONOFF", description: "Strogonoff de frango ou filé, pão, hambúrguer, mussarela, batata palha, tomate e alface.", price: 30, image: "federal.jpg" },
 ];
 
 const addons = [
@@ -130,4 +130,5 @@ function closeLightbox() {
 document.addEventListener('keydown', function(e) {
   if (e.key === 'Escape') closeLightbox();
 });
+
 
